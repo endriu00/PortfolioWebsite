@@ -1,5 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
+relativeURLs = true
+uglyURLs = true
 title = "Andrea Stella's website"
 theme = "port"
 

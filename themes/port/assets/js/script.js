@@ -149,16 +149,36 @@
 
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
-    if (img.indexOf('mylogo_dark.svg') != -1) {
-      document.getElementById(id).src = '/images/mylogo.svg';
+    if (img.indexOf('images/mylogo_dark.svg') != -1) {
+      document.getElementById(id).src = 'images/mylogo.svg';
     } else {
-      document.getElementById(id).src = '/images/mylogo_dark.svg';
+      document.getElementById(id).src = 'images/mylogo_dark.svg';
     }
   }
 
   // Styling Menu on Scroll
   if (window.location.pathname === '/') {
     $('.about-me').waypoint({
+      handler: function (direction) {
+        // Changing Menu background after leaving Header Section
+        $('.menu-container').toggleClass('menu-normal');
+        $('.menu-item').toggleClass('menu-item-transparent');
+        $('.desktop-menu .hvr-underline-from-left').toggleClass('dark');
+        // Toggle Logo
+        toggleLogoImg('desktop-logo');
+        // Toggling Mobile Menu Visibility
+        $('.mobile-menu').toggleClass('mobile-menu-fix');
+        // Auto-Collapsing Mobile Menu When Left Open
+        var a = $('.menu-link').attr('class');
+        if (direction == 'up' && a == 'menu-link active') {
+          $('.menu-link').trigger('click');
+        }
+      },
+      // make header turn white just before it reaches about me section
+      offset: $('.menu-container').innerHeight() + 25
+    });
+  } else if (window.location.pathname === 'https://endriu00.gitlab.io/me/') {
+	  $('.about-me').waypoint({
       handler: function (direction) {
         // Changing Menu background after leaving Header Section
         $('.menu-container').toggleClass('menu-normal');

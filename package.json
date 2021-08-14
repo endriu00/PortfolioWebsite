@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tylerjlawson/port-hugo.git"
+  },
+  "author": "Tyler Lawson",
+  "license": "MIT",
+  "scripts": {
+    "start": "hugo server",
+    "build": "yarn run hugo-theme-demo-builder",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "prettier": "^2.3.2",
+    "prettier-plugin-go-template": "^0.0.11"
+  },
+  "dependencies": {
+    "hugo-theme-demo-builder": "^1.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerjlawson/port-hugo/issues"
+  },
+  "homepage": "https://github.com/tylerjlawson/port-hugo#readme",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "description": ""
+}

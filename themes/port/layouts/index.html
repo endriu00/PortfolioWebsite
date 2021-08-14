@@ -1,9 +1,6 @@
 {{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
 -}}
 
-<!-- =============================
-       Start About Me
-    =============================== -->
 <section class="about-me">
   <div class="container">
     {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
