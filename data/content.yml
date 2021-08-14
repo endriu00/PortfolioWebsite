@@ -1,0 +1,139 @@
+########################## hero area ##########################
+hero:
+  title: "I am Andrea Stella"
+
+  # animated text loop
+  occupations:
+    - 'Computer Science student'
+    - 'Back End Developer'
+
+  # hero background image
+  bg_image: 'images/coding.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/coding.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/meTourEiffel.jpg'
+  title: 'THIS IS ME'
+  content:  
+            My name is Andrea Stella. 
+            I was born in Frosinone, Italy, on 01/01/2000.  		
+            I am graduating in Computer Science, I have a passion for Data Science and Machine Learning (this is my ideal job position in future) other than Cyber Security and DIY. I love building things, making software design (and implementation) one of my favourite free time job other than a constantly evolving skill I share with some of my colleagues and friends.
+            You can scroll down to see my education and my working experiences, or you can
+            directly go down and find me on [LinkedIn or Telegram](#contacts)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: 'res/cv.pdf'
+    icon: 'fa-download'
+
+########################### Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Back End Developer - Internship
+      company: SeismoCloud (Sapienza Università di Roma)
+      duration: 'May 2021-Current'
+      content:   SeismoCloud is an Earthquake Early Warning system created and developed at Sapienza, Università di Roma. My main job was to design and implement the backend for a warehouse. system containing historical data from sensors detecting earthquakes. I coded in Go, working in a team using Git versioning system
+
+education: 
+  enable: true
+  title: 'EDUCATION'
+  education_list:
+    - name: Bachelor's Degree in Computer Science
+      company: Sapienza Università di Roma 
+      duration: 2018-2021
+      content: I have studied the fundamentals of Computer Science, acquiring deep knowledge of 
+               Computer Networks (complete knowledge of TCP/IP stack and its protocols, 
+               like DHCP, TCP, UDP, HTTP and so on), I have studied and implemented algorithms
+               for elements sorting (just to name a few, BubbleSort, CountingSort, MergeSort),
+               more graph-oriented algorithms (Djkstra Algorithm for Shortest Path, Kruskal's and Prim's Minimum Spanning Tree, etc);
+                I have been introduced to different approaches to solve common problems, beginning with Dynamic Programming technique
+                and going over with Back Tracking approach for reducing computational costs of some compatible algorithms.
+                I have studied the most used data structures too, like binary search trees, AVL trees, graphs, dictionaries, Fibonacci trees.
+                I have acquired lots of database skills, diving deep in both theoretical and technical aspects of RDMS and NRDMS.
+                In particular, I have mostly practised with MySQL creating databases, with triggers, stored procedures and querying them with optimization-oriented queries.
+                After the fundamentals, I have examined in deep software engineering, computer graphics, human-computer interaction and cyber security.
+                I have acquired technical experience with some of the most used programming languages. 
+                In fact, I have learnt Python, C, Java, C++, practising with them daily in my personal projects.
+                Thanks to the technical and theoretical background, switching between them and learning new languages, tools and frameworks is not difficult for me.
+
+    - name: Diploma Liceo Scientifico
+      company: Liceo Scientifico e Linguistico di Ceccano
+      duration: 2013-2018
+      content: I studied mainly Physics, Math, Chemistry, Astronomy, Biology but I have also achieved a cultural solid background in other fields, like Arts, Latin language, Philosophy and other non scientific fields.
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'MY SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'Go(lang)'
+      percentage: '80%'
+
+    - name: 'Python'
+      percentage: '70%'
+
+    - name: 'Java'
+      percentage: '80%'
+
+    - name: 'Git'
+      percentage: '60%'
+
+    - name: 'MySQL'
+      percentage: '75%'
+
+    - name: 'Docker'
+      percentage: '50%'
+
+    - name: 'Docker-Compose'
+      percentage: '50%'
+
+    - name: 'C'
+      percentage: '80%'
+
+    - name: 'C++'
+      percentage: '70%'
+
+    - name: 'Linux bash'
+      percentage: '50%'
+
+    - name: 'Hugo'
+      percentage: '60%'
+
+
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'GitHub repositories'
+      image: 'images/icons/GitHub.png'
+      count: '7'
+
+    - name: 'Quora answers'
+      image: 'images/icons/quora.png'
+      count: '21'
+
+############################# portfolio ################################
+portfolio:
+  enable: false
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Hugo
+      image: 'images/portfolio/hugo.png'
+      url: https://gohugo.io
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Hugo Themes
+      image: 'images/portfolio/hugothemes.png'
+      url: https://gohugo.io
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Just A Design
+      image: 'images/portfolio/design.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
