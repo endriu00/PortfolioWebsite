@@ -58,12 +58,12 @@ weight = 4
 #################### default parameters ################################
 [params]
 logo_light = "images/mylogo.svg"
-logo_dark = "images/mylogo_dark.svg"
+logo_dark = "images/mylogodark.svg"
 copyright = "Andrea Stella | "
 # Meta data
 description = "Personal Portfolio"
 author = "Andrea Stella"
-favicon = "images/logo.png"
+favicon = "images/mylogo.png"
 # google_analytics = "G-ABCDEFG123"
 
 

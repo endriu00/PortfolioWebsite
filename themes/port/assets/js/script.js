@@ -149,14 +149,35 @@
 
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
-    if (img.indexOf('images/mylogo_dark.svg') != -1) {
+    if (img.indexOf('images/mylogodark.svg') != -1) {
       document.getElementById(id).src = 'images/mylogo.svg';
     } else {
-      document.getElementById(id).src = 'images/mylogo_dark.svg';
+      document.getElementById(id).src = 'images/mylogodark.svg';
     }
   }
 
   // Styling Menu on Scroll
+  
+   $('.about-me').waypoint({
+      handler: function (direction) {
+        // Changing Menu background after leaving Header Section
+        $('.menu-container').toggleClass('menu-normal');
+        $('.menu-item').toggleClass('menu-item-transparent');
+        $('.desktop-menu .hvr-underline-from-left').toggleClass('dark');
+        // Toggle Logo
+        toggleLogoImg('desktop-logo');
+        // Toggling Mobile Menu Visibility
+        $('.mobile-menu').toggleClass('mobile-menu-fix');
+        // Auto-Collapsing Mobile Menu When Left Open
+        var a = $('.menu-link').attr('class');
+        if (direction == 'up' && a == 'menu-link active') {
+          $('.menu-link').trigger('click');
+        }
+      },
+      // make header turn white just before it reaches about me section
+      offset: $('.menu-container').innerHeight() + 25
+    });
+  /*
   if (window.location.pathname === '/') {
     $('.about-me').waypoint({
       handler: function (direction) {
@@ -207,6 +228,7 @@
     // Toggling Mobile Menu Visibility
     $('.mobile-menu').addClass('mobile-menu-fix');
   }
+  
 
   // Toggle Mobile Menu
   $('.mobile-menu a.menu-link').on('click', function () {
