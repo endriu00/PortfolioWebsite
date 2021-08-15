@@ -155,9 +155,22 @@
       document.getElementById(id).src = 'images/mylogodark.svg';
     }
   }
+  /*
+  function changeLogoColorDisco(id, isBlack) {
+    x = 5;
+	isBlack = !isBlack;
+	var img = document.getElementById(id).src;
+	if (isBlack){
+		document.getElementById(id).src = 'images/mylogodark.svg';
+	} else {
+		document.getElementById(id).src = 'images/mylogo.svg';
+	}
+	//Repeat the work every x*1000 seconds
+    setTimeout(changeLogoColorDisco(id, isBlack), x*1000);
+}
+*/
 
   // Styling Menu on Scroll
-  
    $('.about-me').waypoint({
       handler: function (direction) {
         // Changing Menu background after leaving Header Section
@@ -279,6 +292,19 @@
   /*--------------------------------
 			 Start Testimonials
 	----------------------------------*/
+	
+	const url = "https://api.github.com/users/endriu00";
+
+	const fetchRepos = async () => {
+	const response = await fetch(url);
+	const data = await response.json();
+	repos = data.public_repos
+	return repos;
+	}, 0);
+};
+
+	int count = fetchRepos();
+	$('.data-count') = count
   /*--------------------------------
 			End Testimonials
 	----------------------------------*/
