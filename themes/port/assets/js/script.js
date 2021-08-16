@@ -292,7 +292,7 @@
   /*--------------------------------
 			 Start Testimonials
 	----------------------------------*/
-	
+	/*
 	const url = "https://api.github.com/users/endriu00";
 
 	const fetchRepos = async () => {
@@ -305,6 +305,7 @@
 
 	int count = fetchRepos();
 	$('.data-count') = count
+	*/
   /*--------------------------------
 			End Testimonials
 	----------------------------------*/
