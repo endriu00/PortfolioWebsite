@@ -292,20 +292,7 @@
   /*--------------------------------
 			 Start Testimonials
 	----------------------------------*/
-	/*
-	const url = "https://api.github.com/users/endriu00";
-
-	const fetchRepos = async () => {
-	const response = await fetch(url);
-	const data = await response.json();
-	repos = data.public_repos
-	return repos;
-	}, 0);
-};
-
-	int count = fetchRepos();
-	$('.data-count') = count
-	*/
+	
   /*--------------------------------
 			End Testimonials
 	----------------------------------*/
