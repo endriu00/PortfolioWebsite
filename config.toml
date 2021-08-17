@@ -70,7 +70,8 @@ favicon = "images/mylogo.png"
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/walk.gif" # use jpg, png, svg or gif format.
+#license = "Thanks to https://icons8.com for this gif"
 
 ############################# social site ########################
 
@@ -89,6 +90,10 @@ link = "https://www.linkedin.com/in/andrea-stella-0753151a2/"
 [[params.social]]
 icon = "fab fa-quora"
 link = "https://www.quora.com/profile/Andrea-Stella-30"
+
+[[params.social]]
+icon = "far fa-envelope"
+link = "mailto:andreaste00@gmail.com"
 
 [[params.social]]
 icon = "fab fa-telegram"

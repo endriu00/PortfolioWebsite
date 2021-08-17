@@ -2,7 +2,15 @@
 }}
 <div class="preloader">
   {{ with .Site.Params.preloader.preloader }}
-  <img src="{{ . | relURL }}" alt="preloader" />
+  <div class="preloader-image">
+    <img src="{{ . | relURL }}" alt="preloader" />
+  </div>
+  {{ end }}
+  {{ with .Site.Params.preloader.license}}
+  <div class="preloader-text">  
+  	<p>              </p>
+    <p>{{ . | markdownify }}</p> 
+  </div>
   {{ end }}
 </div>
 {{ "<!-- preloader end -->" | safeHTML }} {{ end }}

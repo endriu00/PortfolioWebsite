@@ -4,8 +4,9 @@ hero:
 
   # animated text loop
   occupations:
-    - 'Computer Science student'
+    - 'Computer Science Student'
     - 'Back End Developer'
+    - 'To-be Software Engineer'
 
   # hero background image
   bg_image: 'images/coding.jpg'
@@ -16,8 +17,8 @@ hero:
 about:
   enable: true
   image: 'images/meTourEiffel.jpg'
-  title: 'THIS IS ME'
-  content:  
+  title: 'ABOUT ME'
+  content:
             My name is Andrea Stella. 
             I was born in Frosinone, Italy, on 01/01/2000.  		
             I am graduating in Computer Science, I have a passion for Data Science and Machine Learning (this is my ideal job position in future) other than Cyber Security and DIY. I love building things, making software design (and implementation) one of my favourite free time job other than a constantly evolving skill I share with some of my colleagues and friends.
@@ -66,6 +67,25 @@ education:
       duration: 2013-2018
       content: I studied mainly Physics, Math, Chemistry, Astronomy, Biology but I have also achieved a cultural solid background in other fields, like Arts, Latin language, Philosophy and other non scientific fields.
 
+volunteering: 
+  enable: true
+  title: 'VOLUNTEERING'
+  volunteering_list: 
+    - name: Scrutineer Polling Station
+      company: Comune di Ceccano
+      duration: Semptember 2020 - Local elections 
+      content:
+
+    - name: Scrutineer Polling Station
+      company: Comune di Ceccano
+      duration: 26th May 2019 - European elections
+      content:
+ 
+    - name: Modeling for 3D Printers
+      company: FabLab Frosinone
+      duration: 2017 March - May
+      content: I worked with Rhino, a modeling software for 3D printers.   
+
 ############################### Skill #################################
 skill:
   enable: true
@@ -74,50 +94,40 @@ skill:
   skill_list:
     - name: 'Go(lang)'
       percentage: '80%'
-
     - name: 'Python'
       percentage: '70%'
-
     - name: 'Java'
       percentage: '80%'
-
     - name: 'Git'
       percentage: '60%'
-
     - name: 'MySQL'
       percentage: '75%'
-
     - name: 'Docker'
       percentage: '50%'
-
     - name: 'Docker-Compose'
       percentage: '50%'
-
     - name: 'C'
       percentage: '80%'
-
     - name: 'C++'
-      percentage: '70%'
-
+      percentage: '60%'
     - name: 'Linux bash'
       percentage: '50%'
-
     - name: 'Hugo'
       percentage: '60%'
-
-
+    - name: 'HTML'
+      percentage: '70%'
 
 ######################### funfacts #############################3
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'GitHub repositories'
+    - name: 'GitHub public repositories'
       image: 'images/icons/GitHub.png'
-      count: '7'
+      count: '6'
 
     - name: 'Quora answers'
       image: 'images/icons/quora.png'
-      count: '21'
+      count: '25'
 
 ############################# portfolio ################################
 portfolio:
