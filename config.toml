@@ -4,6 +4,7 @@ relativeURLs = true
 uglyURLs = true
 title = "Andrea Stella's website"
 theme = "port"
+enableRobotsTxt = true
 
 ############################# Plugins ##############################
 
@@ -64,13 +65,13 @@ copyright = "Andrea Stella | "
 description = "Personal Portfolio"
 author = "Andrea Stella"
 favicon = "images/mylogo.png"
-# google_analytics = "G-ABCDEFG123"
+google_analytics = "G-3PBXBDFB9R"
 
 
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/walk.gif" # use jpg, png, svg or gif format.
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 #license = "Thanks to https://icons8.com for this gif"
 
 ############################# social site ########################
